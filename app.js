@@ -12,11 +12,11 @@ this.uniqeID=function(c){id++;
     return this.employeeID=++c;};
 this.salary=function(){
     if (this.level==="Senior"){
-    let max=2000; let min=1500;}
+    var max=2000; var min=1500;}
 
-    else if(this.level="Mid-Senior"){let max=1500;let min =1000;}
+    if(this.level="Mid-Senior"){var max=1500;var min =1000;}
     
-    else{let max=1000;let min =500;}
+    else{var max=1000;var min =500;}
 
         let x= Math.floor((Math.random()*(max-min)+min));
         this.netSalary= x -7.2;
