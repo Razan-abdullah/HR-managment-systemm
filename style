@@ -1,0 +1,12 @@
+
+p{
+
+
+    font-size:30px;
+    color:red;
+}
+
+img{
+
+    width: 300px;
+}
